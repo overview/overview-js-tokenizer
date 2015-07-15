@@ -1,0 +1,39 @@
+{
+  "name": "overview-js-tokenizer",
+  "version": "0.0.1",
+  "description": "Splits text into tokens in as many languages as possible",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "prepublish": "node_modules/.bin/coffee data/generate.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/overview/overview-js-tokenizer"
+  },
+  "keywords": [
+    "token",
+    "word",
+    "tokenize",
+    "tokenizer",
+    "natural",
+    "language",
+    "processing",
+    "language",
+    "text"
+  ],
+  "author": "Adam Hooper <adam@adamhooper.com>",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/overview/overview-js-tokenizer/issues"
+  },
+  "homepage": "https://github.com/overview/overview-js-tokenizer",
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "coffee-script": "^1.9.3",
+    "mocha": "^2.2.5"
+  },
+  "dependencies": {
+    "unicode-trie": "^0.3.0"
+  }
+}
