@@ -1,4 +1,4 @@
-tokenize = require('../lib/tokenize');
+tokenize = require('../index').tokenize;
 expect = require('chai').expect;
 
 describe('tokenize', function() {

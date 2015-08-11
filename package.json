@@ -1,7 +1,7 @@
 {
   "name": "overview-js-tokenizer",
-  "version": "0.0.2",
-  "description": "Splits text into tokens in as many languages as possible",
+  "version": "0.1.0",
+  "description": "Splits text into tokens in as many languages as possible, using libicu",
   "main": "index.js",
   "scripts": {
     "test": "mocha",
@@ -20,7 +20,9 @@
     "language",
     "processing",
     "language",
-    "text"
+    "text",
+    "icu",
+    "libicu"
   ],
   "author": "Adam Hooper <adam@adamhooper.com>",
   "license": "AGPL-3.0",
@@ -34,6 +36,7 @@
     "mocha": "^2.2.5"
   },
   "dependencies": {
+    "bindings": "^1.2.1",
     "unicode-trie": "^0.3.0"
   }
 }

@@ -1,3 +1,4 @@
 node_modules
+build/
 data/WordBreakProperty.trie
 data/WordBreakPropertyCategories.js

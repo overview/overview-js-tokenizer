@@ -1,3 +1,1 @@
-module.exports = {
-  tokenize: require('./lib/tokenize')
-};
+module.exports = require('bindings')('tokenize');
