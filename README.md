@@ -15,7 +15,12 @@ words.
 Usage
 -----
 
-First, add it to your project: `npm install --save overview-js-tokenizer`
+You may need to install a prerequisite: `apt-get install libicu-dev` or
+`dnf install libicu-devel`. (Node itself depends on ICU; you just need the
+development headers.)
+
+Then add overview-js-tokenizer to your project:
+`npm install --save overview-js-tokenizer`
 
 Next, use it. It turns a String input into an Array of String tokens:
 
